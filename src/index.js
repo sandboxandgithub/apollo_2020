@@ -1,5 +1,6 @@
 import React from 'react';
-import App from './App';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -7,3 +8,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// styled-components, react-router-dom, apollo 설치
